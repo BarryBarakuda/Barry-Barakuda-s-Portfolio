@@ -1,0 +1,131 @@
+.information-container {
+  width: 45rem;
+  height: 20rem;
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 150px;
+  left: 40px;
+}
+
+.welcome-message {
+  width: 14.95em;
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+}
+
+.about-me-message {
+  width: 22em;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+
+
+.icons-container {
+  width: 5rem;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.twitter-button {
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+}
+.twitter-icon {
+  width: 3em;
+  height: 3em;
+  margin-top: -1px;
+  margin-left: -6px;
+  border-radius: 100%;
+  background-color: rgb(63, 130, 192);
+}
+.twitter-button:hover {
+  box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.8);
+}
+.twitter-icon:hover {
+  background-color: rgb(0, 172, 237);
+}
+
+
+
+
+.facebook-button {
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  border: none;
+  margin-left: 10px;
+  background-color: white;
+}
+.facebook-icon {
+  width: 3.6em;
+  height: 3.6em;
+  border-radius: 100%;
+  margin-top: -6px;
+  margin-left: -10px;
+  background-color: rgb(63, 130, 192);
+}
+.facebook-icon:hover {
+  background-color: rgb(24, 119, 242);
+}
+
+
+
+
+.instagram-button {
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  border: none;
+  margin-left: 10px;
+  background-color: black;
+}
+.instagram-icon {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: rgb(63, 130, 192);
+  border-radius: 100%;
+  margin-top: 2px;
+  margin-left: -2px;
+}
+.instagram-button:hover {
+  box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.8);
+}
+.instagram-icon:hover {
+  background: rgb(87,74,180);
+  background: linear-gradient(175deg, rgba(87,74,180,1) 0%, rgba(230,66,67,1) 60%, rgba(248,139,57,1) 100%);  
+}
+
+
+
+.profile-picture-container {
+  border: 2px solid rgb(229, 111, 111);
+  border-radius: 100%;
+  width: 22rem;
+  height: 22rem;
+
+  position: relative;
+  top: 5rem;
+  left: 50rem;
+}
+.profile-picture-container:hover {
+  box-shadow: 2px 2px 10px rgba(255, 0, 0, 0.8);
+}
+.profile-picture {
+  width: 22em;
+  height: 22em;
+  border-radius: 100%;
+}
